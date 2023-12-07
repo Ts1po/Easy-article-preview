@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    max-width: 1440px;
+}
+
+
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+.right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 10px 30px;
+}
+
+.photo {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 223px;
+  }
+  
+.hp {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+  
+.sub-hed {
+    margin-bottom: 5px;
+}
+  
+.share {
+    margin-left: 150px;
+    border-radius: 50%;
+}
+
+.btn {
+    max-width: 5px;
+}
+
+.fb {
+    background-color: blue;
+}
+.tw {
+    background-color: blue;
+}
+
+.pb {
+    background-color: red;
+}
+
+.sub-p {
+    margin-left: 20px;
+}
+
+.her {
+    color: hsl(214, 17%, 51%);
+}
+
+p {
+    color: hsl(212, 23%, 69%);
+    font-size: 18px;
+}
+
+.fp {
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 100px 0 50px 50px;
+}
+
+#shareOptions {
+    display: none;
+}
+  
+
+.attribution {
+     font-size: 11px; text-align: center;
+     margin-top: 50px;
+}
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+    .container {
+        display: block;
+    }
+
+    .right-side {
+        align-items: flex-start;
+        margin: 20px;
+    }
+
+    .photo {
+        margin-top: 20px;
+        margin-right: 0;
+    }
+
+    .hp {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+        margin-left: 0;
+    }
+
+    .share {
+        margin-left: 0;
+    }
+    .main-ph {
+        width: 280px;
+        height: 150px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+}
